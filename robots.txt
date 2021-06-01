@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://xiongshou.github.io/sitemap.xml
