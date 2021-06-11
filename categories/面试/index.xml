@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jane - A super concise theme for Hugo</title>
-    <link>https://xiongshou.github.io/post/</link>
-    <description>Recent content in Posts on Jane - A super concise theme for Hugo</description>
+    <title>面试 on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/categories/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jun 2021 20:16:50 +0200</lastBuildDate><atom:link href="https://xiongshou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>北京实习感悟</title>
-      <link>https://xiongshou.github.io/post/%E5%AE%9E%E4%B9%A0%E6%84%9F%E6%82%9F/</link>
-      <pubDate>Tue, 01 Jun 2021 20:16:50 +0200</pubDate>
-      
-      <guid>https://xiongshou.github.io/post/%E5%AE%9E%E4%B9%A0%E6%84%9F%E6%82%9F/</guid>
-      <description>北京快手实习经历 刚刚结束北京的实习，怎么说呢，当时去北京的时候是自己的21岁生日，那天被HR带着去认识leader、mentor还有同事。 快</description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Jun 2021 20:16:50 +0600</lastBuildDate><atom:link href="https://xiongshou.github.io/categories/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>快手面试经历</title>
       <link>https://xiongshou.github.io/post/%E5%BF%AB%E6%89%8B%E9%9D%A2%E8%AF%95%E7%BB%8F%E5%8E%86/</link>
@@ -23,15 +14,6 @@
       
       <guid>https://xiongshou.github.io/post/%E5%BF%AB%E6%89%8B%E9%9D%A2%E8%AF%95%E7%BB%8F%E5%8E%86/</guid>
       <description>快手面试经历 快手视频一面60分钟 先自我介绍，然后直接问我有没有什么打算,我愣了一会就开始。。。。 问了计算机网络 ，tcp三次握手四次挥手那些，</description>
-    </item>
-    
-    <item>
-      <title>操作系统</title>
-      <link>https://xiongshou.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
-      
-      <guid>https://xiongshou.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
     </item>
     
     <item>
