@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法提高部分 on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/categories/%E7%AE%97%E6%B3%95%E6%8F%90%E9%AB%98%E9%83%A8%E5%88%86/</link>
+    <description>Recent content in 算法提高部分 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jul 2020 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/categories/%E7%AE%97%E6%B3%95%E6%8F%90%E9%AB%98%E9%83%A8%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>二分图总结</title>
+      <link>https://xiongshou.github.io/post/%E4%BA%8C%E5%88%86%E5%9B%BE%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E4%BA%8C%E5%88%86%E5%9B%BE%E6%80%BB%E7%BB%93/</guid>
+      <description>性质 一个图是二分图，图中不存在奇数环，染色法 关押罪犯 最优解越大，图中右半部分越是二分图 染色法求二分图，这些图不一定联通!! 没有必要每次che</description>
+    </item>
+    
+    <item>
+      <title>均分纸牌问题</title>
+      <link>https://xiongshou.github.io/post/%E5%9D%87%E5%88%86%E7%BA%B8%E7%89%8C%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%9D%87%E5%88%86%E7%BA%B8%E7%89%8C%E9%97%AE%E9%A2%98/</guid>
+      <description>线性均分纸牌 思路 首先，先从前往后一个数一个数看，问最少的移动次数，让每一位都一样。 定义状态f[i]:前i个数，都成为平均值，需要后面的数转移</description>
+    </item>
+    
+    <item>
+      <title>扫描线算法</title>
+      <link>https://xiongshou.github.io/post/%E6%89%AB%E6%8F%8F%E7%BA%BF/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%89%AB%E6%8F%8F%E7%BA%BF/</guid>
+      <description>扫描线 题意 多个矩阵求交集，线段树的特殊操作，非常特殊的情况，一堆证明之后，就没有pushdown操作。 没有pushdown操作，也没有que</description>
+    </item>
+    
+    <item>
+      <title>搜索问题</title>
+      <link>https://xiongshou.github.io/post/%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98/</guid>
+      <description>矩阵距离 题意 矩阵中每个0到最近的1的曼哈顿距离 思路 把所以1的位置放入队列，进行bfs 代码 #include&amp;lt;bits/stdc++.h&amp;gt;using namespace std; const int N=1e3+100; char g[N][N]; int dis[N][N]; int n,m; int st[N][N]; typedef pair&amp;lt;int,int&amp;gt;pll; void bfs() { queue&amp;lt;pll&amp;gt;q; for(int i=0;i&amp;lt;n;i++){ for(int j=0;j&amp;lt;m;j++) if(g[i][j]==&amp;#39;1&amp;#39;) {</description>
+    </item>
+    
+    <item>
+      <title>树状数组总结</title>
+      <link>https://xiongshou.github.io/post/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84%E6%80%BB%E7%BB%93/</guid>
+      <description>树状数组总结 动态求前缀和的数据结构。 可以解决的问题：数组中单点修改，求区间前缀和；区间修改，求区间前缀和；求逆序对；求数组中动态删去一个数时</description>
+    </item>
+    
+    <item>
+      <title>欧拉函数</title>
+      <link>https://xiongshou.github.io/post/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%AC%A7%E6%8B%89%E5%87%BD%E6%95%B0/</guid>
+      <description>可见的点 转化成求坐标gcd=1，的点的个数 求gcd相关的个数：欧拉函数 画一个0 - n的二维坐标图 然后求2 到n的欧拉函数 最后+3 最大公约数 求1&amp;</description>
+    </item>
+    
+    <item>
+      <title>欧拉路径总结</title>
+      <link>https://xiongshou.github.io/post/%E6%AC%A7%E6%8B%89%E5%9B%9E%E8%B7%AF%E6%AC%A7%E6%8B%89%E8%B7%AF%E5%BE%84%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%AC%A7%E6%8B%89%E5%9B%9E%E8%B7%AF%E6%AC%A7%E6%8B%89%E8%B7%AF%E5%BE%84%E6%80%BB%E7%BB%93/</guid>
+      <description>基本性质 输出欧拉回路 题意</description>
+    </item>
+    
+  </channel>
+</rss>

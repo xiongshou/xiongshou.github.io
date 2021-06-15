@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法进阶指南 on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/</link>
+    <description>Recent content in 算法进阶指南 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jul 2020 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分级</title>
+      <link>https://xiongshou.github.io/post/%E5%88%86%E7%BA%A7/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%88%86%E7%BA%A7/</guid>
+      <description>分级 题意 思路 先处理单调递增的情况：构造一个新序列b，使得abs(b[i]-a[i]) 和最小。 结论为：b序列为a序列中排好序的组合。即：先把a</description>
+    </item>
+    
+    <item>
+      <title>守卫者的挑战</title>
+      <link>https://xiongshou.github.io/post/%E5%AE%88%E5%8D%AB%E8%80%85%E7%9A%84%E6%8C%91%E6%88%98/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%AE%88%E5%8D%AB%E8%80%85%E7%9A%84%E6%8C%91%E6%88%98/</guid>
+      <description>守卫者的挑战 题意 n项挑战，每项挑战，有获胜的概率，每项挑战的收益有正数、-1.问这n项挑战中，获胜l场以上，并且收益为&amp;gt;=0的概率。 思</description>
+    </item>
+    
+    <item>
+      <title>掷骰子</title>
+      <link>https://xiongshou.github.io/post/%E6%8E%B7%E9%AA%B0%E5%AD%90/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%8E%B7%E9%AA%B0%E5%AD%90/</guid>
+      <description>掷骰子 思路 可以先定义一个状态f[i] [j]: 前i个骰子，最后一个面是j的方法数， 肯定超时，然鹅可以混一些分，代码如下 for(int i=1;i&amp;lt;=6;i++) f[0][i]=1; for(int i=1;i&amp;lt;=n;i++) { for(int j=1;j&amp;lt;=6;j++) { for(int k=1;k&amp;lt;=6;k++) { int _ops=ops[j]; if(w[_ops][j])</description>
+    </item>
+    
+    <item>
+      <title>旅行问题</title>
+      <link>https://xiongshou.github.io/post/%E6%97%85%E8%A1%8C%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%97%85%E8%A1%8C%E9%97%AE%E9%A2%98/</guid>
+      <description>旅行问题 环形：2倍空间处理 判断中间有没有油：油的前缀和 - 路程的前缀和 顺时针，前缀和。逆时针，后缀和 顺时针处理： 要从后往前枚举：维护的单调队列</description>
+    </item>
+    
+    <item>
+      <title>绿色通道</title>
+      <link>https://xiongshou.github.io/post/%E7%BB%BF%E8%89%B2%E9%80%9A%E9%81%93/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%BB%BF%E8%89%B2%E9%80%9A%E9%81%93/</guid>
+      <description>绿色通道 题意 长度为n的序列，可以选择最长长度为len的空序列，保证剩下的序列能在T时间内完成。他最长的空题段len至少有多长就可以了 思路 首先</description>
+    </item>
+    
+    <item>
+      <title>陪审团</title>
+      <link>https://xiongshou.github.io/post/%E9%99%AA%E5%AE%A1%E5%9B%A2/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E9%99%AA%E5%AE%A1%E5%9B%A2/</guid>
+      <description>题意 n个人选m个人，每个人有p[i],d[i]的值，要选出这m个人的所有(p值和)-(d值和)最小，并且p值和+d值和最大。并且输出方案。 思</description>
+    </item>
+    
+    <item>
+      <title>饼干</title>
+      <link>https://xiongshou.github.io/post/%E9%A5%BC%E5%B9%B2/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E9%A5%BC%E5%B9%B2/</guid>
+      <description>饼干 n个孩子，m个饼干。每个孩子都有一个嫉妒值，嫉妒值=（有多少个孩子的饼干比他多）* g。 求一种分配方式，使得总体嫉妒值最小 思路 先处理嫉妒值</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,12 +8,30 @@
     <language>en</language>
     <lastBuildDate>Tue, 01 Jun 2021 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/tags/%E5%A4%A7%E5%AD%A6%E8%AF%BE%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>操作系统</title>
-      <link>https://xiongshou.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <title>需求工程</title>
+      <link>https://xiongshou.github.io/post/%E9%9C%80%E6%B1%82%E5%B7%A5%E7%A8%8B/</link>
       <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
       
-      <guid>https://xiongshou.github.io/post/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
+      <guid>https://xiongshou.github.io/post/%E9%9C%80%E6%B1%82%E5%B7%A5%E7%A8%8B/</guid>
+      <description>名词解释 需求工程：需求工程是软件工程的一个分支，它关注于软件系统所应予实现的现实世界目标、软件系统的功能和软件系统应当遵守的约束，同时它也关</description>
+    </item>
+    
+    <item>
+      <title>操作系统</title>
+      <link>https://xiongshou.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +1200</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+      <description>概述 基本特征 并发 并发是指宏观上在一段时间内能同时运行多个程序，而并行则指同一时刻能运行多个指令。 并行需要硬件支持，如多流水线、多核处理器或者</description>
+    </item>
+    
+    <item>
+      <title>软件测试</title>
+      <link>https://xiongshou.github.io/post/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</guid>
+      <description>测试与开发的关系 W模型更能反映软件测试和软件开发的关系，测试的活动建立在软件开发的结果之上，测试的对象就是软件开发的阶段性成果，软件开发的进</description>
     </item>
     
   </channel>

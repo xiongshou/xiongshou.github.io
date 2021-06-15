@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法基础 on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content in 算法基础 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Aug 2020 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基础数学知识</title>
+      <link>https://xiongshou.github.io/post/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Sat, 01 Aug 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid>
+      <description>试除法判断质数 #include &amp;lt;iostream&amp;gt;#include &amp;lt;algorithm&amp;gt; using namespace std; bool is_prime(int x) { if (x &amp;lt; 2) return false; for (int i = 2; i &amp;lt;= x / i; i ++ ) if (x % i == 0) return false; return true; } int main() { int n; cin &amp;gt;&amp;gt; n; while (n -- ) { int x; cin &amp;gt;&amp;gt; x; if (is_prime(x)) puts(&amp;#34;Yes&amp;#34;); else puts(&amp;#34;No&amp;#34;);</description>
+    </item>
+    
+    <item>
+      <title>基础数据结构</title>
+      <link>https://xiongshou.github.io/post/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Sat, 01 Aug 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <description>单调栈 ​ 最经典的题：左边最近的比它小的数 ​ 3，4这种情况，只要有3在，4永无出头之日，因此序列单调递增减 代码 #pragma comment(linker, &amp;#34;/STACK:1024000000,1024000000&amp;#34;) #include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;algorithm&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;vector&amp;gt;#include&amp;lt;stack&amp;gt;#include&amp;lt;bitset&amp;gt;#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;cmath&amp;gt;#include&amp;lt;set&amp;gt;#include&amp;lt;list&amp;gt;#include&amp;lt;deque&amp;gt;#include&amp;lt;map&amp;gt;#include&amp;lt;queue&amp;gt;using namespace std; typedef long long ll; typedef unsigned long long ull; #define</description>
+    </item>
+    
+    <item>
+      <title>基础树图论</title>
+      <link>https://xiongshou.github.io/post/%E6%A0%91%E5%9B%BE/</link>
+      <pubDate>Sat, 01 Aug 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%A0%91%E5%9B%BE/</guid>
+      <description>八数码 #pragma comment(linker, &amp;#34;/STACK:1024000000,1024000000&amp;#34;) #include&amp;lt;cstdio&amp;gt;#include&amp;lt;cstring&amp;gt;#include&amp;lt;algorithm&amp;gt;#include&amp;lt;iostream&amp;gt;#include&amp;lt;string&amp;gt;#include&amp;lt;vector&amp;gt;#include&amp;lt;stack&amp;gt;#include&amp;lt;bitset&amp;gt;#include&amp;lt;cstdlib&amp;gt;#include&amp;lt;cmath&amp;gt;#include&amp;lt;set&amp;gt;#include&amp;lt;list&amp;gt;#include&amp;lt;deque&amp;gt;#include&amp;lt;map&amp;gt;#include&amp;lt;queue&amp;gt;#include&amp;lt;unordered_map&amp;gt;using namespace std; typedef long long ll; typedef unsigned long long ull; #define mst(s,_s) memset(s, _s, sizeof(s)) const double PI = acos(-1.0); const double eps = 1e-6; const int INF = 0x3f3f3f3f; const int N = 1e6+100; int T,n,m; int bfs(string state) { int dx[4]={-1,0,1,0},dy[4]={0,1,0,-1}; unordered_map&amp;lt;string,int&amp;gt;d; d[state]=0; queue&amp;lt;string&amp;gt;q; q.push(state); while(q.size()) { auto t=q.front(); q.pop(); if(t==&amp;#34;12345678x&amp;#34;) return d[t]; int pos=t.find(&amp;#39;x&amp;#39;); int x=pos/3,y=pos%3; for(int i=0;i&amp;lt;4;i++) {</description>
+    </item>
+    
+    <item>
+      <title>基础贪心</title>
+      <link>https://xiongshou.github.io/post/%E5%9F%BA%E7%A1%80%E8%B4%AA%E5%BF%83/</link>
+      <pubDate>Sat, 01 Aug 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%9F%BA%E7%A1%80%E8%B4%AA%E5%BF%83/</guid>
+      <description>区间选点&amp;amp;最大不相交数量 做法 ​ 按照右端点排序，然后模拟，期间记录一个last变量 #include&amp;lt;bits/stdc++.h&amp;gt;using namespace std; const int N=1e5; typedef pair&amp;lt;int,int&amp;gt;pll; pll a[N]; int n; int main() { cin&amp;gt;&amp;gt;n; for(int i=0;i&amp;lt;n;i++) { cin&amp;gt;&amp;gt;a[i].second&amp;gt;&amp;gt;a[i].first; } sort(a,a+n); int last=-1e9,cnt=0; for(int i=0;i&amp;lt;n;i++)</description>
+    </item>
+    
+  </channel>
+</rss>

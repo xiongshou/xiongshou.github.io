@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>剑指offer on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/categories/%E5%89%91%E6%8C%87offer/</link>
+    <description>Recent content in 剑指offer on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jun 2021 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/categories/%E5%89%91%E6%8C%87offer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>剑指offer图专题</title>
+      <link>https://xiongshou.github.io/post/%E6%A0%91%E5%9B%BE%E4%B8%93%E9%A2%98/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%A0%91%E5%9B%BE%E4%B8%93%E9%A2%98/</guid>
+      <description>二叉树的下一个节点 思路 中序遍历：先左孩子，然后跟，最后右孩子 这个节点的下一个节点 要是这个节点有right 跟节点之后就是右节点。 我们走右节点 走</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第一周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC%E4%B8%80%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC%E4%B8%80%E5%91%A8/</guid>
+      <description>找出数组中重复的数字 题意 思路 桶排序 空间复杂度O(1) 的算法 利用swap把i==nuns[i] 每次先判断出 代码 class Solution { public: int duplicateInArray(vector&amp;lt;int&amp;gt;&amp;amp; nums) { int n=nums.size(); for(int i=0;i&amp;lt;n;i++) if(nums[i]&amp;lt;0 || nums[i]&amp;gt;=n) return</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第七周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC7%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC7%E5%91%A8/</guid>
+      <description>扑克牌的顺序 题意 通过最大值-最小值 判断中间有多少个数。这个信息 然后判断一下有没有重复的，不算重复的0 代码 class Solution { public: bool isContinuous( vector&amp;lt;int&amp;gt; numbers ) { sort(numbers.begin(),numbers.end()); for(int i=1;i&amp;lt;numbers.size();i++) if(numbers[i] &amp;amp;&amp;amp; numbers[i]==numbers[i-1]) return false;</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第三周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC%E4%B8%89%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC%E4%B8%89%E5%91%A8/</guid>
+      <description>反转链表 代码:每次把节点往前加 /** * Definition for singly-linked list. * struct ListNode { * int val; * ListNode *next; * ListNode(int x) : val(x), next(NULL) {} * }; */ class Solution { public: ListNode* reverseList(ListNode* head) { ListNode *pre=NULL; auto p=head; while(p) { auto temp=p-&amp;gt;next; p-&amp;gt;next=pre; pre=p; p=temp; } return pre; } }; 合并链表 /**</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第二周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC%E4%BA%8C%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC%E4%BA%8C%E5%91%A8/</guid>
+      <description>机器人的运动范围 题意： ​ 一个矩阵，机器人在原点走k步，问机器人可以到达的点。bfs问题 代码(bfs队列中，先判断t这个点是不是合法，然后开始</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第五周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC%E4%BA%94%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC%E4%BA%94%E5%91%A8/</guid>
+      <description>数字序列中的某一位 class Solution { public: int digitAtIndex(int n) { /* begin num len 1-9 9 1 10-99 90 2 100-999 900 3 1000-999 9000 4 */ // 先确定在第几个数 long long begin=1,len=1,num=9; while(n&amp;gt;num*len){ n-=num*len; num*=10; len++; begin*=10; } int number = begin-1 + (n+len-1)/len; // number是某个数 int</description>
+    </item>
+    
+    <item>
+      <title>剑指offer第四周</title>
+      <link>https://xiongshou.github.io/post/%E7%AC%AC%E5%9B%9B%E5%91%A8/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E7%AC%AC%E5%9B%9B%E5%91%A8/</guid>
+      <description>数字排列 题意 有重复数字的全排列。 dfs思路 1 2 2 3 ，枚举到第3个数，我们固定一个顺序，把第2个2放在第1个2之后。 代码 class Solution { public: vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;res; vector&amp;lt;bool&amp;gt;st; vector&amp;lt;int&amp;gt;path; vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; permutation(vector&amp;lt;int&amp;gt;&amp;amp; nums) {</description>
+    </item>
+    
+    <item>
+      <title>剑指offer链表专题</title>
+      <link>https://xiongshou.github.io/post/%E9%93%BE%E8%A1%A8%E4%B8%93%E9%A2%98/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E9%93%BE%E8%A1%A8%E4%B8%93%E9%A2%98/</guid>
+      <description>从尾到头打印链表 /** * Definition for singly-linked list. * struct ListNode { * int val; * ListNode *next; * ListNode(int x) : val(x), next(NULL) {} * }; */ class Solution { public: vector&amp;lt;int&amp;gt; printListReversingly(ListNode* head) { vector&amp;lt;int&amp;gt;res; while(head) { res.push_back(head-&amp;gt;val); head=head-&amp;gt;next; } reverse(res.begin(),res.end()); return res; } }; 重建二叉树 在O(1)时间删除链表结</description>
+    </item>
+    
+  </channel>
+</rss>

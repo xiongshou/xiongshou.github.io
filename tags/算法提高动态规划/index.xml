@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法提高动态规划 on Jane - A super concise theme for Hugo</title>
+    <link>https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E6%8F%90%E9%AB%98%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
+    <description>Recent content in 算法提高动态规划 on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Jun 2021 20:16:50 +0900</lastBuildDate><atom:link href="https://xiongshou.github.io/tags/%E7%AE%97%E6%B3%95%E6%8F%90%E9%AB%98%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>传纸条</title>
+      <link>https://xiongshou.github.io/post/%E4%BC%A0%E7%BA%B8%E6%9D%A1/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E4%BC%A0%E7%BA%B8%E6%9D%A1/</guid>
+      <description>思路 状态表示：f[k, i, j] 表示两个人同时走了k步，第一个人在 (i, k - i) 处，第二个人在 (j, k - j)处的所有走法的最大分值。 状态计算：按照最后一步两</description>
+    </item>
+    
+    <item>
+      <title>加分二叉树</title>
+      <link>https://xiongshou.github.io/post/%E5%8A%A0%E5%88%86%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E5%8A%A0%E5%88%86%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+      <description>加分二叉树 一个中序遍历，好些二叉树， 求这些二叉树中权重最大的二叉树，并且输出 权重：题目中有定义 思路 状态表示 ： f[l] [r] :区间l ， r之间所以二叉树的</description>
+    </item>
+    
+    <item>
+      <title>树形DP</title>
+      <link>https://xiongshou.github.io/post/%E6%A0%91%E5%BD%A2dp/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%A0%91%E5%BD%A2dp/</guid>
+      <description>树的最长路径 思路 基本想法就是dfs求出子树的最大高度 基于这个求出最大高度、次大高度 代码 #include&amp;lt;bits/stdc++.h&amp;gt;using namespace std; const int N=2e4+100; int h[N],ne[N],w[N],e[N],idx; void add(int a,int b,int c) { e[idx]=b; ne[idx]=h[a]; w[idx]=c; h[a]=idx++; } int n,m; int res=0; int dfs(int u,int fa)</description>
+    </item>
+    
+    <item>
+      <title>设计密码</title>
+      <link>https://xiongshou.github.io/post/%E8%AE%BE%E8%AE%A1%E5%AF%86%E7%A0%81/</link>
+      <pubDate>Tue, 01 Jun 2021 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E8%AE%BE%E8%AE%A1%E5%AF%86%E7%A0%81/</guid>
+      <description>设计密码 题意 求不包含子串的方案数 思路 匹配子串的过程就是KMP的过程，KMP不跳到m就说明，不包含这个串， 状态表示：f[i] [j] :第i个位置，跳</description>
+    </item>
+    
+    <item>
+      <title>有依赖的背包问题</title>
+      <link>https://xiongshou.github.io/post/%E6%9C%89%E4%BE%9D%E8%B5%96%E7%9A%84%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 01 Jul 2020 20:16:50 +0900</pubDate>
+      
+      <guid>https://xiongshou.github.io/post/%E6%9C%89%E4%BE%9D%E8%B5%96%E7%9A%84%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <description>有依赖的背包问题 思路 定义状态：f[u] [j] ,以u为根节点，体积为j的状态，那么u节点必须选 状态转移： ​ 枚举每一个子树 ​ 枚举每一个子树选出的体积</description>
+    </item>
+    
+  </channel>
+</rss>
